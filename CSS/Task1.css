@@ -1,0 +1,12 @@
+.square{
+    width:29%;
+    height: 29%;
+    background-color: orange;
+    margin: 2%;
+    border-radius:5%;
+    float:left;
+}
+body{
+    height:100vw;
+    width: 100vw;
+}
