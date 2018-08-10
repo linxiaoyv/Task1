@@ -8,24 +8,22 @@ body{
     color:#fff;
     height: 100%;
     width: 100%;
-    font-size: 62.5%;
+    font-size: 1.2rem;
 }
 
 .back{
-    margin:2vw 0vw 0vw 2vw;
+    margin:2% 0 0 2%;
 }
 .logo {
     text-align: center;
-    margin: 10vw 5vw 8vw;
+    margin:2.5% 2% 10%;
 }
 
-
-
 .left{
-    margin:17vw 0vw 0vw 10vw;
+    margin-left:15%;
 }
 
 .right{
     float:right;
-    margin:10vw 10vw;
+    margin-right:15%;
 }
