@@ -8,7 +8,7 @@ body{
     color:#fff;
     height: 100%;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .back{
@@ -16,14 +16,16 @@ body{
 }
 .logo {
     text-align: center;
-    margin:2.5% 2% 10%;
+    margin:2% 8% 8%;
 }
 
 .left{
-    margin-left:15%;
+    margin-left:8%;
 }
+
+
 
 .right{
     float:right;
-    margin-right:15%;
+    margin-right:8%;
 }
