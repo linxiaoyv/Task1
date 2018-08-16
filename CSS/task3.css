@@ -8,7 +8,11 @@ body{
     color:#fff;
     height: 100%;
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+}
+
+.content{
+    margin:8% 12%;
 }
 
 .back{
@@ -20,12 +24,12 @@ body{
 }
 
 .left{
-    margin-left:8%;
+    margin-left:12%;
 }
 
 
 
 .right{
     float:right;
-    margin-right:8%;
+    margin-right:12%;
 }
