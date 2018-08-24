@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+body{
+    color:white;
+}
+
+img{
+    transform:scale(0.5);
+    vertical-align: middle;
+}
+
+header{
+    background-color: #95d2dc;
+    padding:0.8rem  1rem;
+    text-align: center;
+    position: relative;
+}
+
+.back{
+    position: absolute;
+    top:0.4rem;
+    left:1rem;
+}
+
+.user{
+    background: url(../images/background.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.photo{
+    float:left;
+}
+
+.name{
+    margin-top:4rem;
+}
+
+.name span{
+    font-size: 0.5rem;
+}
+
+main{
+    padding-bottom:3rem;
+}
+
+.menu li{
+    color:black;
+    font-size:0.8rem;
+    border-bottom:1px  solid #e1e5e7;
+    padding: 1rem;
+}
+
+.li1 span{
+    border-left:5px solid #5fc0cd;
+    padding-left:1rem;
+}
+
+.li2,.li3,.li4,.li5,.li6{
+    margin-left:1rem;
+}
+
+.li2 img{
+    transform:scale(0.5);
+}
+
+.left{
+    border-right:1px solid #e1e5e7;
+    color:#e1e5e7;
+    padding-right:1rem;
+}
+
+.right{
+    padding-left:1rem;
+}
+
+
+
+.li6 .left{
+    float: left;
+}
+
+
+.li6 .right{
+    display:block;
+    margin-left: 4.5rem;
+}
+
+
+
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom:0;
+    text-align: center;
+    width:100vw;
+    display:flex;
+    line-height: 3rem;
+}
+footer div{
+    border-radius:6px;
+    border:2px solid #5fc0cd;
+    width:49%;
+}
+
+.message{
+    margin-right:3%;
+    background-color: #fff;
+}
+.phone{
+    background-color: #5fc0cd;
+}
+.message a{
+    color:#afdfe6;
+}
+.phone a{
+    color: #fff;
+}
+
+
+
