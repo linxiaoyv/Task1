@@ -50,57 +50,40 @@ header{
     font-size: 0.5rem;
 }
 
-main{
-    padding-bottom:3rem;
+.menu{
+    color: black;
+    font-size: 0.8rem;
+    padding-bottom: 4rem;
 }
 
-.menu li{
-    color:black;
-    font-size:0.8rem;
-    border-bottom:1px  solid #e1e5e7;
-    padding: 1rem;
-}
-
-.li1 span{
-    border-left:5px solid #5fc0cd;
-    padding-left:1rem;
-}
-
-.li2,.li3,.li4,.li5,.li6{
+li {
+    border-bottom: 1px solid #e1e5e7;
+    display: flex;
+    align-items: center;
     margin-left:1rem;
 }
 
-.li2 img{
-    transform:scale(0.5);
+.menu p{
+    border-bottom: 1px solid #e1e5e7;
+    padding:1rem;
+}
+
+.menu p span{
+    border-left: 5px solid #5fc0cd;
+    padding-left: 0.5rem;
 }
 
 .left{
-    border-right:1px solid #e1e5e7;
     color:#e1e5e7;
-    padding-right:1rem;
+    text-align: center;
+    min-width: 6rem;
+    border-right:1px solid #e1e5e7;
 }
 
 .right{
-    padding-left:1rem;
+    margin-left:1rem;
+    padding: 1rem;
 }
-
-
-
-.li6 .left{
-    float: left;
-}
-
-
-.li6 .right{
-    display:block;
-    margin-left: 4.5rem;
-}
-
-
-
-
-
-
 
 
 footer{
