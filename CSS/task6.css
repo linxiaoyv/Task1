@@ -45,7 +45,7 @@ a:hover{
     transform:scale(0.5);
     width: 42px;
     height: 44px;
-    background: url(../images/css_sprites.png) -194px -10px;
+    background: url('../images/css_sprites.png') -194px -10px;
 }
 
 .header2{
@@ -82,14 +82,14 @@ a:hover{
 .list-group-item .img1{
     width: 24px;
     height: 24px;
-    background: url("../images/css_sprites.png") -88px -10px;
+    background: url('../images/css_sprites.png') -88px -10px;
     float: left;
 }
 
 .list-group-item .img2{
     width: 19px;
     height: 33px;
-    background: url("../images/css_sprites.png") -10px -10px;
+    background: url('../images/css_sprites.png') -10px -10px;
     transform:scale(0.5);
     position:absolute;
     top:3.5rem;
@@ -100,7 +100,7 @@ a:hover{
 .list-group-item .img3{
     width: 19px;
     height: 23px;
-    background: url("../images/css_sprites.png") -49px -10px;
+    background: url('../images/css_sprites.png') -49px -10px;
     float: left;
 }
 

@@ -1,0 +1,180 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+i{
+    width: 30px;
+    height: 30px;
+    background: url(../images/css_sprites.png);
+    float: left;
+
+}
+
+.header1{
+    background-color: #5fc0cd;
+    text-align: center;
+    position: relative;
+}
+
+.header1 button{
+    margin: 1rem 0;
+    height: 2.5rem;
+    margin-left: -10px;
+    border-radius: 8px;
+    width: 6rem;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.btn1 {
+    background-color: #55a8b3;
+}
+
+.btn1 a{
+    color: white;
+}
+
+.btn2 {
+    background-color: #fff;
+}
+
+.btn2 a{
+    color: #5fc0cd;
+}
+
+.icon1{
+    position: absolute;
+    top:1rem;
+    right:0.5rem;
+    background-position:-110px -60px;
+    zoom:0.8;
+}
+
+.header2{
+    color:#e1e5e7;
+    display: flex;
+    flex-flow:row nowrap;
+}
+
+.btn-group{
+    flex-grow:1;
+}
+
+.header2 .btn {
+    background-color: #fff;
+    border-left:1px solid #e1e5e7 ;
+    margin:0.5rem 1rem;
+    color:#b4b4b4;
+    width: 100%;
+}
+
+.dropdown-menu li{
+    text-align: center;
+}
+
+.dropdown-menu{
+    width:100%;
+}
+
+.caret {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+
+
+
+
+main{
+    margin-bottom: 4rem;
+}
+
+
+.icon2{
+    background-position:-10px -10px;
+    zoom:0.7;
+}
+
+.icon3{
+    background-position:  -110px -10px;
+    zoom:0.3;
+    float: right;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.icon4{
+    background-position: -60px -10px;
+    zoom:0.7;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:2rem;
+    margin-left:2.5rem;
+}
+
+.price span{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.p3{
+    color: red;
+}
+
+.p1,.p4{
+    font-size: 1.4rem;
+    color: #b4b4b4;
+    margin-left:1rem;
+}
+
+
+.icon5{
+    background-position:-10px -110px;
+}
+
+.icon6{
+    background-position: -60px -60px;
+}
+
+footer nav{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 4rem;
+    text-align: center;
+}
+
+footer a{
+    width: 35vw;
+
+
+ }
+
+.left {
+    color: #5fc0cd;
+}
+
+.right{
+    color: #b4b4b4;
+}
+
+footer p{
+    clear: left;
+}
+
+.center{
+    zoom:1.6;
+}
+
+
+
+
