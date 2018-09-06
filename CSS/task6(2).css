@@ -10,7 +10,7 @@ ul,ol{
 i{
     width: 30px;
     height: 30px;
-    background: url(../images/css_sprites.png);
+    background: url('../images/css_sprites.png');
     float: left;
 
 }
@@ -150,14 +150,8 @@ footer nav{
     display: flex;
     flex-flow: row nowrap;
     height: 4rem;
-    text-align: center;
+    justify-content:space-around;
 }
-
-footer a{
-    width: 35vw;
-
-
- }
 
 .left {
     color: #5fc0cd;
@@ -165,10 +159,6 @@ footer a{
 
 .right{
     color: #b4b4b4;
-}
-
-footer p{
-    clear: left;
 }
 
 .center{
