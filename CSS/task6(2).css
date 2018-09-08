@@ -10,7 +10,7 @@ ul,ol{
 i{
     width: 30px;
     height: 30px;
-    background: url('../images/css_sprites.png');
+    background: url('css_sprites.png');
     float: left;
 
 }
