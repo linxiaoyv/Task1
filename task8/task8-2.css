@@ -26,6 +26,15 @@ ol{
     margin-right:1rem;
 }
 
+li:hover .circle{
+    background-color: #ff640d;
+}
+
+li:hover a{
+    color: #ff640d;
+    text-decoration: white;
+}
+
 .menu-left li{
     margin: 2rem 0;
     font-size: 1.6rem;
@@ -47,6 +56,7 @@ ol{
     border: 1px solid #e1e5e7;
     float: left;
     font-size: 1.6rem;
+    margin-bottom: 2rem;
 }
 
 .text2{
