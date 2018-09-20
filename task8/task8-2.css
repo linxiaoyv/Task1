@@ -82,12 +82,13 @@ li:hover a{
 
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 768px) {
     .menu-left,
     .menu-right{
         width: 100%;
     }
     .menu-right{
-        margin:0 ;
+        margin:0;
+        margin-bottom: 2rem;
     }
 }

@@ -6,13 +6,12 @@ header i{
     float: left;
 }
 
+p{
+    padding: 0;
+}
 *{
     margin: 0;
     padding: 0;
-}
-
-p{
-    margin: 0;
 }
 
 a:hover, a{
@@ -21,15 +20,18 @@ a:hover, a{
 
 
 /*                                                 头部样式                                                           */
-.top{
+.top {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     color: #79c7a3;
-    padding:0.5rem;
+    padding: 0.5rem;
     font-size: 1.2rem;
     align-items: center;
+    display: -webkit-flex;
+    display:-webkit-box;
 }
+
 
 .cat-1{
     background-position: -125px -10px;
@@ -49,7 +51,7 @@ a:hover, a{
 
 .menu-top{
     background-color:#29b078;
-    height:4.5rem;
+    height:51px;
 }
 
 .menu-top img{
@@ -58,7 +60,7 @@ a:hover, a{
 }
 
 .navbar-nav>li>a{
-    padding-bottom: 1.5rem;
+    padding:15px;
 }
 
 .navbar-nav{
@@ -149,7 +151,9 @@ footer{
 }
 
 
-@media (min-width: 576px) {
-
+@media (max-width:768px) {
+    .col-sm-4{
+        text-align: center;
+    }
 
 }
