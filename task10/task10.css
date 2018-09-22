@@ -1,0 +1,360 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+i{
+    width: 20px;
+    height: 20px;
+    background: url('css_sprites-10.png');
+    float: left;
+}
+
+.top{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    color:white;
+    align-items: center;
+    background-color: #1d7ad9;
+}
+
+.breadcrumb{
+    background-color: #1d7ad9;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb-item{
+    text-decoration: none;
+    color: white;
+
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "";
+}
+
+.breadcrumb a{
+    width:4rem;
+    height:2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding:0;
+}
+
+.breadcrumb a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.eighty{
+    width:80%;
+    margin: auto;
+}
+.menu-top{
+    width:50vw;
+    float: right;
+
+}
+
+.btn{
+    background-color: #fff;
+    border: 1px solid #e1e5e7;
+    box-shadow: 1px 1px 1px #e1e5e7;
+    margin:0.5rem 0;
+}
+
+
+
+.inline{
+    background-color: #1d7ad9;
+    color:white;
+}
+
+.grey{
+   background-color: #f3f3f3;
+}
+
+.dropdown-menu{
+    min-width:100%;
+    text-align: center;
+}
+
+main{
+    clear: right;
+
+    padding: 3rem 0;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.loading{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.border-radius{
+    border-radius: 3px;
+}
+
+.square{
+    width: 60px;
+    height: 6px;
+}
+
+.circle{
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.darkgrey{
+    background-color: #cccccc;
+}
+
+.bar{
+    color: white;
+}
+
+.orange-f{
+    color:orange;
+}
+
+.darkgrey-f{
+    color: #a0a0a0;
+}
+
+.loading span{
+    display: block;
+    width: 140px;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.point{
+    border-left: 3px solid #1d7ad9;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    margin: 1rem;
+}
+
+.cat-1{
+    background-position: -10px -10px ;
+}
+
+.cat-2{
+    background-position: -90px -10px ;
+}
+
+.cat-3{
+    background-position: -50px -10px ;
+}
+
+.condition{
+    padding: 0.5rem;
+    color: #1d7ad9;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.border-bottom{
+    border-bottom:1px solid #e1e5e7
+}
+
+.condition span{
+    margin-left:1rem;
+}
+
+.choice{
+    border: 1px solid #e1e5e7;
+}
+
+label input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    margin: 0;
+}
+
+label input[type="radio"]:after {
+    display: block;
+    content: "";
+    width: 1em;
+    height: 1em;
+    margin: 0  1em;
+    border-radius: 50%;
+    border: 1px solid #01cd78;
+    line-height: 1;
+}
+
+label input[type="radio"]:checked:after {
+    background-color: #01cd78;
+    background-clip: content-box;
+    padding: .2em;
+}
+
+label{
+    margin: 0;
+}
+
+
+.condition-1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #a0a0a0;
+}
+
+.condition-11{
+    padding:1rem;
+}
+
+select {
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 1px #a0a0a0;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("5.png") no-repeat scroll right center transparent;
+
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    width:7rem;
+    padding-left: 1rem;
+}
+
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+.condition-111{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+}
+
+.condition-1111{
+    margin: 0.5rem 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+input[type="text"]{
+    margin:0 0.5rem;
+    width: 4rem;
+}
+
+
+
+footer{
+    line-height: 2rem;
+}
+
+footer a,
+footer{
+    color:#a0a0a0;
+}
+
+.bottom{
+    text-align:center ;
+    background-color: #1d7ad9;
+    width: 100%;
+   color: white;
+}
+
+.brand{
+    font-weight: bold;
+}
+
+footer p{
+    margin: 1rem;
+}
+
+.contact{
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: center;
+}
+
+.next{
+    height:8rem;
+    position: relative;
+}
+
+.next>.btn{
+    background-color: #c9302c;
+    color: white;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%) ;
+}
+
+
+
+
+@media (max-width:768px) {
+    .col-sm-4{
+        text-align: center;
+    }
+
+    .contact{
+        display: block;
+    }
+
+    .menu-top{
+        width: 80vw;
+    }
+
+    .btn,
+    .btn-group{
+        width: 45%;
+    }
+    .dropdown-toggle{
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width:400px)
+{
+ .condition-1111{
+     margin: 0.5rem  0;
+ }
+
+
+}
+
+@media (max-width:350px){
+    select{
+        width:5rem;
+        padding-left: 0.2rem;
+    }
+}
+
+

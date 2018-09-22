@@ -1,0 +1,159 @@
+
+header i{
+    width: 20px;
+    height: 20px;
+    background: url('css_sprites8.png');
+    float: left;
+}
+
+p{
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover, a{
+    color: white;
+}
+
+
+/*                                                 头部样式                                                           */
+.top {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    color: #79c7a3;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    align-items: center;
+    display: -webkit-flex;
+    display:-webkit-box;
+}
+
+
+.cat-1{
+    background-position: -125px -10px;
+}
+
+.cat-2{
+    background-position: -165px -10px;
+}
+
+.cat-3{
+    background-position: -85px -10px;
+}
+
+.top i{
+    margin:0 1rem;
+}
+
+.menu-top{
+    background-color:#29b078;
+    height:51px;
+}
+
+.menu-top img{
+   transform: scale(0.5);
+    margin-left:5vw;
+}
+
+.navbar-nav>li>a{
+    padding:15px;
+}
+
+.navbar-nav{
+    float: right;
+    margin-right: 5vw;
+}
+
+.navbar-nav>li>a:hover{
+    border-bottom: 1px solid white;
+    background-color: #29b078;
+}
+
+.module{
+    color:#29b078;
+}
+
+.menu1{
+    padding: 1rem 0;
+    font-size: 1.6rem ;
+}
+
+.navbar-nav>li>a:visited{
+    background-color: #29b078;
+}
+
+
+
+.icon{
+    color:white;
+    padding:0;
+    border-top:2px solid white ;
+    border-bottom:2px solid white ;
+    font-size: 2rem;
+}
+
+.btn-group>.btn{
+    height: 4rem;
+    background-color: #29b078;
+    line-height: 4rem;
+}
+
+.dropdown-menu{
+    width: 100vw;
+    background-color: #29b078;
+
+}
+
+
+.dropdown-menu,
+.btn{
+    border: none;
+}
+
+.dropdown-menu li a{
+    color: white;
+    padding: 1rem;
+}
+
+
+
+
+/*                                                         尾部注释                                                   */
+footer{
+    background:#29b078;
+    line-height: 4rem;
+}
+
+.contact,
+.bottom{
+    color: white;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+#collapsibleNavbar {
+}
+
+
+@media (max-width:768px) {
+    .col-sm-4{
+        text-align: center;
+    }
+
+}

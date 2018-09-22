@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <title>51包装</title>
+    <!-- 新 Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="task10.css"/>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <span>客服热线：010-594-7863</span>
+            <nav class="breadcrumb">
+                <a class="breadcrumb-item login" href="#">登录</a>
+                <a class="breadcrumb-item register" href="#">注册</a>
+            </nav>
+        </div>
+        <div class="grey">
+           <div class="eighty clearfix">
+               <nav class="navbar  menu-top">
+                   <button class="btn">首页</button>
+                   <button class="btn  inline">在线定制</button>
+                   <div class="btn-group">
+                       <button type="button" class="btn btn-default dropdown-toggle "  data-toggle="dropdown">
+                           标准箱
+                           <span class="caret"></span>
+                       </button>
+
+                       <ul class="dropdown-menu" role="menu">
+                           <li>
+                               <a href="#">a</a>
+                           </li>
+                           <li role="presentation">
+                               <a href="#">b</a>
+                           </li>
+
+                           <li role="presentation">
+                               <a href="#">c</a>
+                           </li>
+                           <li role="presentation">
+                               <a href="#">d</a>
+                           </li>
+                       </ul>
+                   </div>
+                   <button class="btn">品质保证</button>
+               </nav>
+           </div>
+        </div>
+    </header>
+    <main class="eighty">
+        <div class="loading bar">
+            <div class="square orange border-radius"></div>
+            <div class="circle orange">1</div>
+            <div class="square orange"></div>
+            <div class="square darkgrey"></div>
+            <div class="circle darkgrey">2</div>
+            <div class="square darkgrey"></div>
+            <div class="square darkgrey"></div>
+            <div class="circle darkgrey">3</div>
+            <div class="square darkgrey"></div>
+            <div class="square darkgrey"></div>
+            <div class="circle darkgrey">4</div>
+            <div class="square darkgrey border-radius"></div>
+        </div>
+        <div class="loading">
+            <span class="orange-f">1.定制纸箱</span>
+            <span class="darkgrey-f">2.选择数量</span>
+            <span class="darkgrey-f">3.上传文件</span>
+            <span class="darkgrey-f">4.确认订单</span>
+        </div>
+        <div class="point">请您按照以下步骤来定制您的纸箱</div>
+        <form class="choice" action="">
+            <div class="condition grey border-bottom">
+                <i class="cat-1"></i>
+                <span>选择箱型</span>
+            </div>
+            <div class="condition-1">
+                <div class="condition-11">
+                    <label><input name="year" type="radio"><span class="darkgrey-f">对口箱</span></label>
+                    <label><input name="year" type="radio"><span class="darkgrey-f">飞机盒</span></label>
+                    <label><input name="year" type="radio"><span class="darkgrey-f">天地盖</span></label>
+                </div>
+                <div class="condition-11">
+                    <select name=""  id="" class="darkgrey-f">
+                        <option>查看详情</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+
+            <div class="condition grey border-bottom">
+                <i class="cat-2"></i>
+                <span>确定尺寸</span>
+            </div>
+            <div class="condition-1">
+                <div class="condition-11">
+                    <p class="condition-111">
+                        <label><input type="radio"><span class="darkgrey-f">外径</span></label>
+                        <span class="condition-1111">
+                            <span>长</span><input type="text"><span>mm</span>
+                        </span>
+                        <span class="condition-1111">
+                            <span>宽</span><input type="text"><span>mm</span>
+                        </span>
+                        <span class="condition-1111">
+                            <span>高</span><input type="text"><span>mm</span>
+                        </span>
+                    </p>
+
+                    <p class="condition-111">
+                        <label><input type="radio"><span class="darkgrey-f">内径</span></label>
+                        <span class="condition-1111">
+                            <span>长</span><input type="text"><span>mm</span>
+                        </span>
+                        <span class="condition-1111">
+                            <span>宽</span><input type="text"><span>mm</span>
+                        </span>
+                        <span class="condition-1111">
+                            <span>高</span><input type="text"><span>mm</span>
+                        </span>
+                    </p>
+
+                </div>
+                <div class="condition-11">
+                    <select name=""  class="darkgrey-f">
+                        <option>查看详情</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="condition grey border-bottom">
+                <i class="cat-3"></i>
+                <span>选择材质</span>
+            </div>
+            <div class="condition-1 border-bottom">
+                <div class="condition-11">
+                    <label><input name="year" type="radio"><span class="darkgrey-f">三层A瓦优质</span></label>
+                    <label><input name="year" type="radio"><span class="darkgrey-f">三层A瓦优质</span></label>
+                    <label><input name="year" type="radio"><span class="darkgrey-f">三层A瓦优质</span></label>
+                    <label><input name="year" type="radio"><span class="darkgrey-f">三层A瓦优质</span></label>
+                    <label><input name="year" type="radio"><span class="darkgrey-f">三层A瓦优质</span></label>
+                </div>
+                <div class="condition-11">
+                    <select name=""   class="darkgrey-f">
+                        <option>查看详情</option>
+                    </select>
+                </div>
+            </div>
+            <div class="next"><button type="submit" class="btn btn-default">下一步</button></div>
+        </form>
+
+
+
+    </main>
+
+
+    <footer class="grey">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4 col-xs-12" >
+                    <p class="brand">51包装网— 纸箱包装首选服务平台</p>
+                </div>
+
+                <div class="col-sm-4 col-xs-12">
+                    <p>
+                        <a href="">关于我们</a>
+                        <a href=""> 配送流程 </a>
+                        <a href="">联系我们</a>
+                    </p>
+                    <p>
+                        <a href="">下单指南</a>
+                        <a href="">媒体介绍 </a>
+                    </p>
+                </div>
+
+                <div class="col-sm-4 col-xs-12 contact">
+
+                    <div>
+                        <p>TEL：400-0000-000</p>
+                        <p> 企业QQ：123456789 </p>
+                        <p>微信号：XXXXXXX</p>
+                    </div>
+                    <img src="er.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom"> 北京五一包装科技有限公司Copyright ©2015 &nbsp 51baozhuang.com015&nbspAll rights reserved. &nbsp 京icp备99999999-1
+        </div>
+    </footer>
+</body>
+</html>

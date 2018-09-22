@@ -1,0 +1,256 @@
+.diffrence i{
+    width: 50px;
+    height: 60px;
+    background-image: url('css_sprites8.png');
+    float:left;
+}
+
+.menu{
+    padding: 0;
+}
+
+.text{
+    position: absolute;
+    bottom:4rem;
+    width:100%;
+    text-align: center;
+    color:white;
+}
+
+
+
+.p1{
+    font-size: 1.6rem;
+}
+
+.p2{
+    font-size: 2.0rem;
+}
+
+.p2>span{
+    font-size: 2.8rem;
+}
+
+.cat-4{
+    background-position: -345px -10px ;
+}
+
+.cat-5{
+    background-position: -275px -10px;
+}
+
+.cat-6 {
+    background-position: -205px -10px;
+}
+
+.cat-6,
+.cat-5,
+.cat-4{
+    margin:3rem calc(50% - 25px) 0 ;
+}
+
+.diffrence span ,
+.number p,
+.step,
+.experience{
+    color: #999999;
+    font-size: 1.6rem;
+    margin-bottom:2rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.cat-7{
+    width:25px;
+    height:25px;
+    background: url("css_sprites8.png")  -10px -10px;
+    float: left;
+    margin-top: 0.8rem;
+}
+
+.number span{
+    color:#29b078;
+    font-size:2rem;
+}
+.number{
+    height:15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-left: 1px dashed #dedede;
+    margin:3rem 0;
+}
+
+
+.aim{
+    height:15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.order{
+    float: left;
+    font-size: 2.5rem;
+    color:#29b078;
+    border:1px solid #e3e3e3;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 1px 3px rgba(8, 1, 3, .15);
+    margin-right: 1rem;
+}
+
+.cat-8{
+    width: 20px;
+    height:20px;
+    background: url("css_sprites8.png") -45px -10px;
+    margin-left: 2rem;
+}
+
+.step{
+    flex:1 ;
+    margin:1rem 0;
+}
+
+.process{
+    margin:0 1rem;
+}
+
+
+
+
+
+
+.link{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: #9a9a9a;
+    list-style: disc;
+}
+
+.link li{
+    min-width: 90px;
+}
+
+.bottom-link{
+    margin: 1rem;
+}
+
+
+.photo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.student{
+    text-align: center;
+}
+
+ .caption{
+     font-size: 1.8rem;
+     font-weight: bold;
+     height:5rem;
+     line-height: 5rem;
+     clear:left;
+     text-align: center;
+ }
+
+.company{
+    text-align: center;
+    font-size:0;
+}
+
+.company a{
+    width:100px;
+    height:100px;
+}
+
+.company img{
+    border: 1px solid #e1e5e7;
+}
+
+.carousel-control1{
+   visibility: hidden;
+}
+
+.carousel-indicators .active{
+    background-color: #29b078;
+}
+
+.carousel-indicators1 {
+    position: absolute;
+    bottom:-40px;
+}
+
+.row-xs-20{
+    line-height: 10vw;
+    height: 10vw;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .col-sm-4,
+    .col-sm-3,
+    .link {
+        text-align: center;
+    }
+
+    .step{
+        text-align: center;
+    }
+
+    .number{
+        margin-top:5rem ;
+    }
+    .number p{
+        text-align: center;
+
+    }
+    .number i{
+        position:relative;
+        left:35vw;
+    }
+
+    .menu-top{
+        width: 100%;
+    }
+
+    .aim i{
+        margin-left: 1rem;
+    }
+
+    .company{
+        margin:2rem 0;
+    }
+
+    .carousel-indicators1 {
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .carousel-inner>.item>img {
+        height: 45vw;
+    }
+
+    .margin{
+        margin:0;
+    }
+
+}
+
+
+@media screen and (width:768px) {
+    .col-sm-4,
+    .col-sm-3,
+    .link {
+       width:98%;
+    }
+}
