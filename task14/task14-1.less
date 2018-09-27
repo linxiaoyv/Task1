@@ -1,0 +1,139 @@
+@import "csstask14-basic.less";
+
+/*精灵图*/
+.cat{
+  &-8{
+    .bp(-45px,-10px);
+  }
+}
+
+header{
+
+  /*轮播图*/
+
+ .con{
+   padding-bottom: 31.25%;
+
+   #inner-con{
+     width: 500%;
+     left: 0;
+   }
+
+   .btn{
+     span{
+       opacity: .7;
+       top: 50%;
+       margin-top: -35px;
+     }
+
+     &:hover{
+       opacity: 1;
+     }
+
+     #left{
+       left: 0;
+     }
+
+     #right{
+       right: 0;
+     }
+   }
+
+   #ol{
+     bottom: 10px;
+     left: 50%;
+     transform: translateX(-50%);
+   }
+
+   .text{
+     bottom: 40px;
+     left: 50%;
+     transform: translateX(-50%);
+   }
+ }
+}
+
+
+main{
+
+  /* 优势 */
+
+  .menu{
+    .grade{
+      border-left: 1px dashed #dedede;
+    }
+  }
+
+  /* 如何学习  */
+
+  .study{
+     >div{
+       >span{
+         flex:1;
+       }
+    }
+  }
+
+  /*优秀学员*/
+
+  .btn1{
+    left:50%;
+    transform: translateX(-50%);
+  }
+
+  /* 战略合作企业 */
+
+  .company{
+    flex-flow:wrap;
+    justify-content: center;
+
+    img{
+      width:250px;
+      height: 100px;
+      .bde;
+      .tc;
+    }
+  }
+
+  div{
+    .link{
+      list-style: disc;
+    }
+  }
+}
+
+/*小屏幕响应*/
+
+.media-tc(768px);
+@media(max-width:768px ) {
+  main {
+    .menu {
+
+      .grade {
+        border-left: none;
+
+        > div {
+          .tc;
+        }
+      }
+    }
+    div{
+      .link {
+        flex-flow: row wrap;
+        li {
+          min-width: 70px;
+        }
+      }
+    }
+    .study{
+      div{
+        .p0;
+      }
+      .step{
+        .pt20;
+        .pb20;
+      }
+    }
+
+  }
+}

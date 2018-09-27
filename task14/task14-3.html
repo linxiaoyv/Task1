@@ -1,0 +1,736 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>职位列表</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet/less" type="text/css" href="csstask14-common.less" />
+    <link rel="stylesheet/less" type="text/css" href="task14-3.less" />
+    <script src="http://cdn.bootcss.com/less.js/1.7.0/less.min.js"></script>
+    <script src="http://leaverou.github.com/prefixfree/prefixfree.min.js"></script>
+
+    <script type="text/javascript">
+        less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: false,
+            rootpath: ":/a.com/"
+        };
+
+        var refer=true;
+        function combo() {
+            if (refer) {
+                document.all.contents.style.display="block";//所有样式内容可见
+                refer=false;
+            }
+            else {
+                document.all.contents.style.display="none";
+                refer=true;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <!-- 头部  -->
+
+    <header>
+        <div class="top flexbc p15 pct90 auto">
+            <span>客服热线：010-594-7863</span>
+            <div>
+                <i class="cat-1 pr15"></i>
+                <i class="cat-2 pr15"></i>
+                <i class="cat-3 pr15"></i>
+            </div>
+        </div>
+
+        <!-- 导航栏  -->
+
+        <div class="menu-top bgc2 rel">
+            <div class=" flexbc pct90 auto">
+                <img class="z5" src="http://118.126.113.248/jnshu820/jnshu.png">
+                <ul class="nav flex">
+                    <li><a class="p15 wh" href="#">首页</a></li>
+                    <li><a class="p15 wh" href="http://118.126.113.248/jnshu820/task14-3.html">职业</a></li>
+                    <li><a class="p15 wh" href="http://118.126.113.248/jnshu820/task14-2.html">推荐</a></li>
+                    <li><a class="p15 wh" href="#">关于</a></li>
+                </ul>
+
+                <!-- 隐藏导航栏  -->
+
+                <div class="nav-hidden dn pt15">
+                    <button type="button" class="bgc2" onclick="combo()">
+                        <span class="icon f24 wh">—-</span>
+                        <ul class="tc r abs bgc2 dn" id="contents">
+                            <li class="p10"><a class="wh f14" href="http://118.126.113.248/jnshu820/task14-1.html">首页</a></li>
+                            <li class="p10"><a class="wh f14" href="http://118.126.113.248/jnshu820/task14-3.html">职位</a></li>
+                            <li class="p10"><a class="wh f14" href="http://118.126.113.248/jnshu820/task14-2.html">推荐</a></li>
+                            <li class="p10"><a class="wh f14" href="#">关于</a></li>
+                        </ul>
+                    </button>
+
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- 中部  -->
+
+    <main>
+        <div class="pct90 auto col-1">
+
+            <!-- 选项页  -->
+
+            <div class="f18 mt10 mb10">
+                <span>首页></span>
+                <a class="c2" href="#">职业</a>
+            </div>
+            <ul class=" job pt20 pb30">
+                <li class="l c9 lt1"> 方向：</li>
+                <li class="l pl5 f16" ><a href="#" class="c2">全部</a></li>
+                <li class="l pl5 f16"><a href="#a1" class="c2">前端开发</a></li>
+                <li class="l pl5 f16"><a href="#a2" class="c2">后端开发</a></li>
+                <li class="l pl5 f16"><a href="#a3" class="c2">运营维护</a></li>
+            </ul>
+
+            <!-- 职位列表  -->
+
+            <!-- 前端  -->
+
+            <div class="cl f24 b pt20 pb20 direction mt15" id="a1">前端开发方向</div>
+            <div class="flexbc mb30 col-1">
+                <table class="mt15 f16 lt1 lh20 rel ovh">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+                <table class="mt15 f16 lt1 lh20 rel ovh ml15 mr15 tbl">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+                <table class="mt15 f16 lt1 lh20 rel ovh">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <!-- 后端  -->
+
+            <div class="cl f24 b pt20 pb20 direction mt15" id="a2">后端开发方向</div>
+            <div class="flexbc mb30 col-1">
+                <table class="mt15 f16 lt1 lh20 rel ovh">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+                <table class="mt15 f16 lt1 lh20 rel ovh ml15 mr15 tbl">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+                <table class="mt15 f16 lt1 lh20 rel ovh">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <!-- 运维 -->
+
+            <div class="cl f24 b pt20 pb20 direction mt15" id="a3">运维方向</div>
+            <div class="flexbc mb30 col-1">
+                <table class="mt15 f16 lt1 lh20 rel ovh">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+                <table class="mt15 f16 lt1 lh20 rel ovh ml15 mr15 tbl">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+                <table class="mt15 f16 lt1 lh20 rel ovh">
+                    <tr class="picture tc" >
+                        <td class="left"><img class="mr10 ml10" src="http://118.126.113.248/jnshu820/picture.jpg" alt=""></td>
+                        <td class="right">
+                            <p class="p10 c0">Web前端工程师</p>
+                            <p class="p10 c0">Web前端开发工程师，主要职责是 利用（X）HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p10">门槛 <img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                        <td class="p10">难易程度<img class="z25" src="http://118.126.113.248/jnshu820/star.png"  alt=""><img class="z25" src="http://118.126.113.248/jnshu820/star.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="p10">成长周期<span class="red pl10 pr10">1-3</span>年 </td>
+                        <td class="p10">稀缺程度<span class="red pl10 pr10">345</span><span class="c0">家公司需要</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table class="table-in pct100">
+                                <tr>
+                                    <td class="pct30 td-left tc p10" rowspan="3">薪资待遇</td>
+                                    <td class="pl10 pt10 pb10 bdbe c0">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10 bdbe c0" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0  bdbe">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                                <tr class="c0">
+                                    <td class="pl10 pt10 pb10">
+                                        <p>0~1年</p>
+                                    </td>
+                                    <td class="pr10 pt10 pb10" align="right">
+                                        <p>5k~10k/月</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="c0 b f24 p10">有<span class="red n pl10 pr10">286</span>人正在学</td>
+                    </tr>
+                    <tr>
+                        <td class="p10" colspan="2">
+                            提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础
+                        </td>
+                    </tr>
+                    <tr><td class="table-hover abs pct100 wh f18">
+                        <p class="tc mt40 p20">ios工程师</p>
+                        <p class="p10">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。
+                        </p>
+                    </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部  -->
+
+    <footer class="bgc2 wh f14 cl">
+        <div class="col-1  flex pct90 auto pt10">
+            <div class="pct30">
+                <a href="http://118.126.113.248/jnshu820/task14-1.html">技能树-改变你我</a>
+                <p>
+                    <a href="">关于我们 | </a>
+                    <a href=""> 联系我们 | </a>
+                    <a href="">合作企业</a>
+                </p>
+            </div>
+
+            <div class="pct30">
+                <a href="">旗下网站</a>
+                <p>
+                    <a href="">草船云孵化器</a>
+                    <a href=""> 最强IT特训营 </a>
+                </p>
+                <p>
+                    <a href="http://118.126.113.248/jnshu820/task3.html">葡萄藤轻游</a>
+                    <a href="http://118.126.113.248/jnshu820/task4.html"> 桌游精灵 </a>
+                </p>
+            </div>
+
+            <div class="tc pct30">
+                <p>微信公众号</p>
+                <p>
+                    <img src="http://118.126.113.248/jnshu820/er.png" alt="">
+                </p>
+            </div>
+
+        </div>
+        <p class="tc p10">Copyright@2015技能树 www.jnshu.com All Reserved | 京ICP备13005880号</p>
+    </footer>
+</body>
+</html>

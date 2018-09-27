@@ -1,0 +1,75 @@
+@import "csstask14-basic.less";
+
+/*精灵图*/
+.cat{
+  &-1 {
+    .bp(-125px,-10px);
+  }
+  &-2{
+    .bp(-165px,-10px);
+  }
+  &-3{
+    .bp(-85px,-10px);
+  }
+}
+
+.bgc2{
+  .bgc(#29b078);
+}
+
+.c2{
+  color:#29b078;
+}
+
+/* 头部 s*/
+header{
+  .top{
+    .c2;
+  }
+
+    /* 导航栏 s*/
+
+  .menu-top{
+    div{
+    height:47px;
+
+
+      /*>768px 导航栏*/
+
+      .nav{
+        >li{
+          >a{
+            &:hover{
+              .bbf;
+              color:orangered;
+            }
+          }
+        }
+      }
+
+      /*<768px 隐藏导航栏*/
+
+      .media(767px);
+
+      .nav-hidden{
+        button{
+          .icon{
+            .bdt(2px,#fff);
+            .bdb(2px,#fff);
+          }
+
+          ul{
+            top:100%;
+            right:0;
+            width:100vw;
+          }
+        }
+      }
+    }
+
+    /* 导航栏 e*/
+
+  }
+}
+
+/*头部 e*/

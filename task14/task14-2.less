@@ -1,0 +1,29 @@
+@import "csstask14-basic.less";
+
+main{
+  /*左边列表*/
+  a {
+    &:hover{
+      color: #ff640d;
+
+      span{
+        .bgc( #ff640d);
+      }
+    }
+    span {
+      .bd(1px, #ff640d);
+    }
+  }
+
+  /*媒体查询自适应*/
+
+  .media-tc(768px);
+  @media (max-width:768px){
+      .text{
+        margin-left: 0;
+        .intruduce{
+            padding-left: 0;
+        }
+      }
+  }
+}
