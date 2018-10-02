@@ -1,0 +1,28 @@
+i {
+  width: 20px;
+  height: 20px;
+  background: url(http://118.126.113.248/jnshu820/css_sprites7.png);
+  float: left;
+}
+body header .head {
+  background: #29bde0;
+}
+body header .head .cat-1 {
+  background-position: -90px -10px;
+}
+body main div .back {
+  background-position: -50px -10px;
+}
+body main div section {
+  color: #69d1e9;
+  border-bottom: 1px solid #fbb435;
+}
+body main div button {
+  background: #69d1e9;
+}
+body main div p {
+  color: #b4b4b4;
+}
+body main div .next {
+  background-position: -10px -50px;
+}

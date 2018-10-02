@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <style type="text/css">
+
+    </style>
+
+
+</head>
+
+<body>
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+</ul>
+<script>
+    var ul = document.querySelector('ul');
+
+    // 先进入 ul 节点，然后在节点内部移动，不会触发 mouseleave 事件
+    // 只有离开 ul 节点时，触发一次 mouseleave
+    // event.target 是 ul 节点
+    ul.addEventListener('mouseleave', function (event) {
+        event.target.style.color = 'purple';
+        setTimeout(function () {
+            event.target.style.color = '';
+        }, 500);
+    }, false);
+
+    // 先进入 ul 节点，然后在节点内部移动，mouseout 事件会触发多次
+    // event.target 是 li 节点
+    ul.addEventListener('mouseout', function (event) {
+        event.target.style.color = 'orange';
+        setTimeout(function () {
+            event.target.style.color = '';
+        }, 500);
+    }, false);
+</script>
+</body>
+</html>
