@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>查看身份</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet/less" type="text/css" href="basic1.css" />
+    <link rel="stylesheet/less" type="text/css" href="js-task3.less"/>
+    <script src="http://cdn.bootcss.com/less.js/1.7.0/less.min.js"></script>
+    <script type="text/javascript">
+        less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: false,
+            rootpath: ":/a.com/"
+        };
+    </script>
+</head>
+<body>
+    <header class="tc flexbc pl15 pr15 f18 wh bbe poi">
+        <img class="back" onclick="back()" src="http://118.126.113.248/jnshu820/back1.png">
+        <span>查看身份</span>
+        <img onclick="bye()" src="http://118.126.113.248/jnshu820/close.png">
+    </header>
+    <main>
+        <div class="no_know" id="no_know" >
+            <p></p>
+            <img src="http://118.126.113.248/jnshu820/wait.png" alt="">
+        </div>
+        <div class="know" id="know">
+            <p></p>
+            <img src="http://118.126.113.248/jnshu820/know.png" alt="">
+            <span id="text1" class="text1"></span>
+            <span id="text2" class="text2"></span>
+            <span class="text3">想办法猜到别人的词，同时还要注意 不要暴露自己哦！</span>
+        </div>
+    </main>
+    <footer>
+        <button type="button" id="next1" class="bn">查看 <span id="Num"></span> 号身份</button>
+        <button type="button" id="next2" >隐藏并传递给 <span id="nextNum"></span> 号</button>
+        <button type="button" id="next" class="bn">法官视角</button>
+    </footer>
+
+
+
+    <script src="https://cdn.bootcss.com/jquery/2.1.0/jquery.js"></script>
+    <script type="text/javascript" src="js-task3.js"></script>
+</body>
+</html>

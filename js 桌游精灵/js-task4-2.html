@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>法官台本</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet/less" type="text/css" href="basic1.css" />
+    <link rel="stylesheet/less" type="text/css" href="js-task4-1.less"/>
+    <script src="http://cdn.bootcss.com/less.js/1.7.0/less.min.js"></script>
+    <script type="text/javascript">
+        less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: false,
+            rootpath: ":/a.com/"
+        };
+    </script>
+</head>
+<body>
+<header class="tc flexbc p15 f24 wh bbe">
+    <img  class="back" onclick="back()" src="http://118.126.113.248/jnshu820/back1.png">
+    <p>法官文本</p>
+    <img src="http://118.126.113.248/jnshu820/close.png" onclick="bye()"></a>
+</header>
+
+<main>
+    <div class="tc p10 bgwh bgbc">点击下方玩家头像，对投票的玩家进行标记</div>
+    <div class="player-box"></div>
+</main>
+
+<footer>
+    <button type="button" id="sure">确定</button>
+</footer>
+
+<script src="https://cdn.bootcss.com/jquery/2.1.0/jquery.js"></script>
+<script language=javascript src='js-task3-1.js'></script>
+<script type="text/javascript" src="js-task4-2.js"></script>
+</body>
+</html>

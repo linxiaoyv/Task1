@@ -1,0 +1,103 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+  margin:0;
+}
+
+.bgc(@color){
+  background:@color;
+}
+
+body{
+  header{
+    img{
+      transform: scale(0.5);
+    }
+    .bgc(#29bde0);
+  }
+}
+
+main{
+  .pecent-top{
+    height:250px;
+
+    .pecent-right{
+      height:250px;
+
+      .pecent-number{
+        height: 180px;
+
+        li{
+          list-style: none;
+          width:50%;
+          float: left;
+          font-size: 12px;
+          line-height: 20px;
+          letter-spacing: 4px;
+
+          &:before{
+            content: "";
+            width: 8px;
+            height: 8px;
+            float: left;
+            background-color: orange;
+            margin: 6px -70px 0 70px ;
+          }
+        }
+      }
+
+      .reset{
+        line-height: 50px;
+
+        a{
+          text-decoration: none;
+          color: #5fcee8;
+        }
+      }
+    }
+  }
+
+  .word{
+    input{
+      border: none;
+      border-bottom: 1px solid silver;
+      margin-left: 5%;
+      letter-spacing: 2px;
+      outline: none;
+    }
+  }
+
+  form{
+    div{
+      button{
+        .bgc(white);
+        color: orange;
+      }
+      input[type=range]{
+        -webkit-appearance: none;
+        .bgc(orange);
+        height:3px;
+        border-radius: 5px ;
+        outline-style: none;
+
+        &::-webkit-slider-thumb{
+          -webkit-appearance: none;
+          width: 25px;
+          height:15px;
+          background: url("http://118.126.113.248/jnshu820/range.png") no-repeat;
+        }
+      }
+
+      input[type=tel]{
+        outline-style: none;
+        border: none;
+        color: orange;
+      }
+    }
+  }
+}
+
+footer{
+  button{
+    .bgc(orange);
+    border: none;
+  }
+}
