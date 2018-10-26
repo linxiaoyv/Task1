@@ -1,0 +1,88 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+  margin: 0;
+}
+.br {
+  border-radius: 5px;
+}
+.flex-1 {
+  flex: 1;
+}
+ul,
+ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+i {
+  width: 20px;
+  height: 20px;
+  background: url(http://118.126.113.248/jnshu820/css_sprites7.png);
+  float: left;
+}
+body header {
+  top: 0;
+  background: #29bde0;
+}
+body header .head .cat-4 {
+  background-position: -50px -50px;
+}
+body header .head .cat-5 {
+  background-position: -90px -50px;
+}
+body main {
+  margin-top: 4rem;
+  background: #29bde0;
+}
+body main .success {
+  background: url("http://118.126.113.248/jnshu820/success.png") no-repeat 50%;
+  background-size: 15rem 10rem;
+  height: 10rem;
+}
+body main .success span {
+  top: 7.2rem;
+}
+body main .result li {
+  margin: 0.3rem 0;
+}
+body main .result .rax {
+  color: #ffc865;
+}
+body nav {
+  margin-bottom: 4rem;
+}
+body nav ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+body nav ul li div {
+  margin: auto;
+  width: 80%;
+}
+body nav ul li div p {
+  color: #a6a6a6;
+}
+body nav ul li .day {
+  padding: 10px 0;
+}
+body nav ul li .event {
+  color: #a6a6a6;
+}
+body footer {
+  background: rgba(144, 215, 232, 0.5);
+  bottom: 0;
+}
+body footer .left {
+  background: #f66f6f;
+}
+body footer .right {
+  background: #fbb435;
+}

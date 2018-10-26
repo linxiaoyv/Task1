@@ -1,0 +1,84 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+  margin: 0;
+}
+body header {
+  background: #29bde0;
+}
+body header img {
+  transform: scale(0.5);
+}
+main .pecent-top {
+  height: 250px;
+}
+main .pecent-top .pecent-right {
+  height: 250px;
+}
+main .pecent-top .pecent-right .pecent-number {
+  height: 180px;
+}
+main .pecent-top .pecent-right .pecent-number li {
+  list-style: none;
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 4px;
+}
+main .pecent-top .pecent-right .pecent-number li:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  float: left;
+  background-color: orange;
+  margin: 6px -70px 0 70px;
+}
+main .pecent-top .pecent-right .reset {
+  line-height: 50px;
+}
+main .pecent-top .pecent-right .reset a {
+  text-decoration: none;
+  color: #5fcee8;
+}
+main .word input {
+  border: none;
+  border-bottom: 1px solid silver;
+  margin-left: 5%;
+  letter-spacing: 2px;
+  outline: none;
+}
+main form div button {
+  background: white;
+  color: orange;
+}
+main form div input[type=range] {
+  -webkit-appearance: none;
+  background: orange;
+  height: 3px;
+  border-radius: 5px ;
+  outline-style: none;
+}
+main form div input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 25px;
+  height: 15px;
+  background: url("http://118.126.113.248/jnshu820/range.png") no-repeat;
+}
+main form div input[type=tel] {
+  outline-style: none;
+  border: none;
+  color: orange;
+}
+footer button {
+  background: orange;
+  border: none;
+}

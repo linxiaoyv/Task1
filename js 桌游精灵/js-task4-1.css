@@ -1,0 +1,70 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+  margin: 0;
+}
+html body {
+  background: #29bde0;
+}
+html body header img {
+  transform: scale(0.5);
+}
+html body main {
+  padding-bottom: 8rem;
+  text-align: center;
+  overflow: hidden;
+}
+html body main .player-box .player {
+  width: 20vw;
+  margin: 5vw 0 7vw 10vw;
+  border: 2px solid white;
+  float: left;
+  position: relative;
+}
+html body main .player-box .player .top {
+  height: 15vw;
+  background: orange;
+  line-height: 15vw;
+}
+html body main .player-box .player .bottom {
+  height: 5vw;
+  background: #83b09a;
+  line-height: 5vw;
+  color: white;
+  font-size: 12px;
+}
+html body main .player-box .player .knife {
+  background: url(https://helloimyhe.github.io/web/js/js2/img2~4/kill.png) no-repeat;
+  background-size: 100%;
+  width: 8vw;
+  height: 8vw;
+  position: absolute;
+  left: 6vw;
+  top: 21vw;
+  visibility: hidden;
+}
+html body footer {
+  position: fixed;
+  bottom: 0px;
+  background: #29bde0;
+  width: 100%;
+  margin: auto;
+}
+html body footer button {
+  width: 70%;
+  height: 50px;
+  background: orange;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 10px 15%;
+  border-radius: 5px;
+}
