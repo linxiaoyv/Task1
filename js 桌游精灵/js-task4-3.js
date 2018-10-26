@@ -45,6 +45,7 @@ if( kiNum == 0){
 $("#new").click(function () {
     sessionStorage.clear();
     location.href="js-task2-1.html";
+    
 });
 
 //home键
