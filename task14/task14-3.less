@@ -1,0 +1,84 @@
+@import "csstask14-basic.less";
+
+.red{
+  color: red;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+
+main{
+  div{
+
+    /*选项页*/
+
+    .job{
+      .bdt(1px,#b4b4b4);
+      .bdb(1px,#e1e5e7);
+    }
+
+    /*职位列表*/
+
+    .direction{
+      .bdb(1px,#b4b4b4);
+    }
+
+    /*职业方向*/
+
+    table{
+      border:solid #e1e5e7;
+      border-width:1px 0px 0px 1px;
+
+      td{
+        border:solid #e1e5e7;
+        border-width:0px 1px 1px 0px;
+
+        img{
+          width:10vw ;
+        }
+      }
+
+      .left{
+        border-right: none;
+      }
+
+      .table-in{
+        border:none;
+
+        td{
+          border: none;
+        }
+        .td-left{
+          .bdr(1px,#e1e5e7);
+        }
+        .bdbe{
+          .bdb(1px,#e1e5e7);
+        }
+      }
+    }
+    .table-hover{
+      top:0;
+      right:-102%;
+      height: 100%;
+      .bgc(rgba(1, 1, 1, 0.7));
+    }
+   table:hover .table-hover {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transition: all 2s ease-in;
+      cursor: pointer;
+    }
+  }
+
+}
+
+
+.media-tc(768px);
+@media(max-width: 768px){
+  .tbl{
+      margin-left: 0;
+  }
+}

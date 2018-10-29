@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background-color: #eff0f4;
+}
+body header {
+  background: #5fc0cd;
+  text-align: center;
+  color: white;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+body header a {
+  text-decoration: none;
+  color: white;
+}
+body header a:hover {
+  color: grey;
+}
+body main {
+  overflow: hidden;
+}
+body main form .user {
+  background-color: white;
+  margin: 0.8rem 0;
+  height: 3rem;
+  line-height: 3rem;
+}
+body main form .user img {
+  zoom: 0.5;
+  padding: 0.5rem 1rem;
+  vertical-align: middle;
+}
+body main form .user input {
+  padding-left: 0.5rem;
+  border: none;
+  outline: none;
+  border-left: #eff0f4 solid 1px;
+}
+body main form .user input::placeholder {
+  color: #eff0f4;
+}
+body main form button {
+  width: 100%;
+  background: #5fc0cd;
+  text-align: center;
+  color: white;
+  height: 4rem;
+  border: none;
+  padding: 0;
+}
+body main a {
+  float: right;
+  margin: 1rem;
+  color: #5fc0cd;
+}
+body main a:hover {
+  color: grey;
+}

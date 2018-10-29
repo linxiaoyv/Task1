@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>法官台本</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet/less" type="text/css" href="basic1.css" />
+    <link rel="stylesheet/less" type="text/css" href="js-task4.less"/>
+    <script src="http://cdn.bootcss.com/less.js/1.7.0/less.min.js"></script>
+    <script type="text/javascript">
+        less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: false,
+            rootpath: ":/a.com/"
+        };
+    </script>
+</head>
+<body>
+    <header class="tc flexbc pl15 pr15 f18 wh bbe">
+        <img  class="back" onclick="back()" src="http://118.126.113.248/jnshu820/back1.png">
+        <p>法官台本</p>
+        <img src="http://118.126.113.248/jnshu820/close.png" onclick="bye()"></a>
+    </header>
+    <main>
+        <p class="day1">第<span class="dayNum">一</span>天</p>
+        <ul class="day1">
+            <li>
+                <div>
+                    <img class="moon" src="http://118.126.113.248/jnshu820/moon.png" alt="">
+                    <span class="triangle"></span>
+                    <p class="step">杀手杀人</p>
+                </div>
+                <div id="killed"></div>
+            </li>
+            <li>
+                <div>
+                    <span class="triangle"></span>
+                    <img class="sun" src="http://118.126.113.248/jnshu820/sun.png" alt="">
+                    <p class="step">亡灵发表遗言</p>
+                </div>
+            </li>
+            <li>
+               <div>
+                   <span class="triangle"></span>
+                   <p class="step">玩家依次发言</p>
+               </div>
+            </li>
+            <li>
+                <div>
+                    <span class="triangle"></span>
+                    <p class="step">投票</p>
+                </div>
+                <div id="voted"></div>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <button type="button" id="playerLog">法官日志</button>
+        <button type="button" id="gameOver">游戏结束</button>
+    </footer>
+
+    <script src="https://cdn.bootcss.com/jquery/2.1.0/jquery.js"></script>
+    <script type="text/javascript" src="state-machine.js"></script>
+    <script type="text/javascript" src="js-task4.js"></script>
+</body>
+</html>

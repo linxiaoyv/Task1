@@ -1,0 +1,65 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+  margin: 0;
+}
+html body {
+  background: #29bde0;
+}
+html body header img {
+  transform: scale(0.5);
+}
+html body header i {
+  width: 20px;
+  height: 20px;
+  background: url(http://118.126.113.248/jnshu820/css_sprites7.png) -130px -50px;
+  float: right;
+}
+html body main {
+  margin-bottom: 5rem;
+  text-align: center;
+  overflow: hidden;
+}
+html body main .player-box .player {
+  width: 20vw;
+  margin: 5vw 0 0 10vw;
+  border: 2px solid white;
+  float: left;
+}
+html body main .player-box .player .top {
+  height: 15vw;
+  background: orange;
+  line-height: 15vw;
+}
+html body main .player-box .player .bottom {
+  height: 5vw;
+  background: #83b09a;
+  line-height: 5vw;
+  color: white;
+  font-size: 12px;
+}
+html body footer {
+  position: fixed;
+  bottom: 0px;
+  background: #29bde0;
+  width: 100%;
+  margin: auto;
+}
+html body footer button {
+  width: 70%;
+  height: 50px;
+  background: orange;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 10px 15%;
+  border-radius: 5px;
+}

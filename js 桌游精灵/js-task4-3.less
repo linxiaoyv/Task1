@@ -1,0 +1,119 @@
+.bd(@color){
+  border: 2px solid @color;
+}
+
+.bdb(@color){
+  border-bottom: 1px solid @color;
+}
+
+.bgc(@color){
+  background:@color;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+  margin:0;
+}
+.br{
+  border-radius: 5px;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+ul,ol{
+  padding-left:0;
+  list-style-type:none;
+}
+
+i{
+  width: 20px;
+  height: 20px;
+  background: url(http://118.126.113.248/jnshu820/css_sprites7.png);
+  float: left;
+}
+
+body{
+  header{
+    top:0;
+    .bgc(#29bde0);
+
+    .head{
+      .cat-4{
+        background-position: -50px -50px;
+      }
+
+      .cat-5{
+        background-position: -90px -50px;
+      }
+    }
+  }
+
+  main{
+    margin-top: 4rem;
+    .bgc(#29bde0);
+
+    .success{
+      background:url("http://118.126.113.248/jnshu820/success.png") no-repeat 50% ;
+      background-size: 15rem 10rem;
+      height:10rem;
+
+      span{
+        top:7.2rem;
+      }
+    }
+
+    .result{
+      li{
+        margin: .3rem 0;
+      }
+      .rax{
+        color: #ffc865;
+      }
+    }
+  }
+
+  nav{
+    margin-bottom: 4rem;
+
+    ul{
+      li{
+        .bdb(#ddd);
+        padding: 10px 0;
+
+        div{
+          margin: auto;
+          width: 80%;
+          //.right{
+          //  color:#e0e0e0;
+          //}
+
+          p {
+            .event;
+          }
+        }
+
+        .day{
+          padding: 10px 0;
+        }
+
+        .event{
+          color: #a6a6a6;
+        }
+      }
+    }
+  }
+
+  footer{
+    .bgc(rgba(144,215,232,0.5););
+    bottom: 0;
+
+    .left{
+      .bgc(#f66f6f);
+    }
+
+    .right{
+      .bgc(#fbb435);
+    }
+  }
+}

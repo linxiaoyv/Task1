@@ -1,0 +1,34 @@
+body {
+  width: 70%;
+  margin: auto;
+}
+body ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+body ul .square {
+  width: 15vw;
+  height: 15vw;
+  background: orange;
+  border-radius: 3vw;
+  margin: 3vw;
+}
+body button {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  border: 1px solid orange;
+  margin: 1rem 0;
+  text-align: center;
+  background: #fff;
+  color: orange;
+}
+body button:hover {
+  background: orange;
+  cursor: pointer;
+  color: white;
+}

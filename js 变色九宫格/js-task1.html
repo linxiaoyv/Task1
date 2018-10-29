@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--网页页面字符集-->
+    <meta charset="utf-8">
+
+    <!--让IE使用最新的渲染模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--针对移动设备,网站显示宽度等于设备屏幕显示宽度,内容缩放比例为1:1-->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1，user-scalable=no">
+
+    <!--将下面的 <meta> 标签加入到页面中，可以让部分国产浏览器默认采用高速模式渲染页面：-->
+    <meta name="renderer" content="webkit">
+
+    <title>九宫格</title>
+    <link rel="stylesheet/less" type="text/css" href="js-task1.less" />
+
+</head>
+<body>
+    <ul>
+        <li class="square"></li>
+        <li class="square"></li>
+        <li class="square"></li>
+        <li class="square"></li>
+        <li class="square"></li>
+        <li class="square"></li>
+        <li class="square"></li>
+        <li class="square"></li>
+        <li class="square"></li>
+    </ul>
+
+
+    <button type="button" onclick="start()">开始闪</button>
+    <button type="button" onclick="over()">结束闪</button>
+
+    <script src="http://cdn.bootcss.com/less.js/1.7.0/less.min.js"></script>
+    <script type="text/javascript">
+        less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            rootpath: ":/a.com/"
+        };
+    </script>
+    <script type="text/javascript" src="js-task1.js"></script>
+</body>
+</html>

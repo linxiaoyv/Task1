@@ -1,0 +1,77 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+  margin:0;
+}
+
+.bgc(@color){
+  background:@color;
+}
+
+.bd(@width,@color){
+  border: @width solid @color;
+}
+
+html{
+  body{
+    .bgc(#29bde0);
+
+    header{
+      img{
+        transform: scale(0.5);
+      }
+      i {
+        width: 20px;
+        height: 20px;
+        background: url(http://118.126.113.248/jnshu820/css_sprites7.png) -130px -50px;
+        float: right;
+      }
+    }
+
+    main{
+      margin-bottom: 5rem;
+      text-align: center;
+      overflow: hidden;
+
+      .player-box{
+        .player{
+          width:20vw;
+          margin: 5vw 0 0 10vw;
+          .bd(2px,white);
+          float: left;
+
+          .top{
+            height: 15vw;
+            .bgc(orange);
+            line-height:15vw;
+          }
+
+          .bottom{
+            height:5vw;
+            .bgc(#83b09a);
+            line-height: 5vw;
+            color: white;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    footer{
+      position: fixed;
+      bottom: 0px;
+      .bgc(#29bde0);
+      width: 100%;
+      margin: auto;
+
+      button{
+        width: 70%;
+        height:50px;
+        .bgc(orange);
+        border: none;
+        color: white;
+        font-size: 20px;
+        margin: 10px 15%;
+        border-radius: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+  margin: 0;
+}
+.flex-1 {
+  flex: 1;
+}
+i {
+  width: 20px;
+  height: 20px;
+  background: url(http://118.126.113.248/jnshu820/css_sprites7.png);
+  float: left;
+}
+body {
+  background: #29bde0;
+}
+body header {
+  top: 0;
+  background: #29bde0;
+}
+body header .head .cat-2 {
+  background-position: -90px -10px;
+}
+body header .head .cat-3 {
+  background-position: -130px -50px;
+}
+body header .start .end {
+  background: #B9E9F5;
+}
+body header .start .cat-6 {
+  background-position: -90px -90px;
+  zoom: 2;
+}
+body header .start .triangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #b9e9f5;
+  margin-left: 3rem;
+}
+body main {
+  margin-bottom: 5rem ;
+  margin-top: 12rem;
+}
+body main .square {
+  justify-content: space-around;
+}
+body main .square .box1 {
+  border: 2px solid #fff;
+  width: 6rem;
+}
+body main .square .box1:hover .box2 {
+  visibility: visible;
+}
+body main .square .box1 .top {
+  height: 4.5rem;
+  background: #f5c97b;
+  line-height: 4.5rem;
+}
+body main .square .box1 .bottom {
+  height: 1.5rem;
+  background: #83b09a;
+  line-height: 1.5rem;
+}
+body main .square .box1 .box2 {
+  flex-flow: row nowrap;
+  width: 6rem;
+}
+body main .square .box1 .box2 .cat-10 {
+  background-position: -10px -90px;
+}
+body main .square .box1 .box2 .cat-7,
+body main .square .box1 .box2 .cat-9 {
+  background-position: -130px -10px;
+}
+body main .square .box1 .box2 .cat-8 {
+  background-position: -50px -90px;
+}
+body nav {
+  bottom: 0;
+  height: 4rem;
+  background: #29bde0;
+}
+body nav button {
+  background: #fbb435;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
