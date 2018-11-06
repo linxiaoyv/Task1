@@ -17,33 +17,35 @@ body header {
 body header img {
   transform: scale(0.5);
 }
-main .pecent-top {
-  height: 250px;
-}
-main .pecent-top .pecent-right {
-  height: 250px;
-}
 main .pecent-top .pecent-right .pecent-number {
-  height: 180px;
+  height: 160px;
 }
 main .pecent-top .pecent-right .pecent-number li {
   list-style: none;
   width: 50%;
   float: left;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 10px;
+  line-height: 18px;
   letter-spacing: 4px;
 }
-main .pecent-top .pecent-right .pecent-number li:before {
+main .pecent-top .pecent-right .pecent-number li::before {
   content: "";
   width: 8px;
   height: 8px;
   float: left;
   background-color: orange;
-  margin: 6px -70px 0 70px;
+  margin: 6px 2px 0 20px ;
+}
+main .pecent-top .pecent-right .pecent-number .green::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  float: left;
+  background-color: #5fcee8;
+  margin: 6px 2px 0 20px ;
 }
 main .pecent-top .pecent-right .reset {
-  line-height: 50px;
+  line-height: 30px;
 }
 main .pecent-top .pecent-right .reset a {
   text-decoration: none;

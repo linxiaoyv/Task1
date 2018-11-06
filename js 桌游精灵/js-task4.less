@@ -26,12 +26,12 @@ body{
     margin: auto;
     text-align: center;
     font-size: 20px;
-    margin-bottom:100px;
+    margin-bottom: 70px;
     .bgc(white);
     //border: 1px solid #cccccc;
 
     p{
-      padding:20px 0;
+      padding:10px 0;
       margin-top: 30px;
       border: 2px solid #cccccc;
     }
@@ -40,6 +40,7 @@ body{
       list-style: none;
       color: white;
       border-bottom: 3px solid #c9c9c9;
+      padding-left: 20px;
 
 
       li{
@@ -54,18 +55,17 @@ body{
           span{
             width: 0;
             height: 0;
-            border-bottom:15px solid transparent;
-            border-right: 20px solid #29bde0;
-            border-top: 15px solid transparent;
-            margin-top: 30px ;
+            border-bottom:10px solid transparent;
+            border-right: 11px solid #29bde0;
+            border-top: 10px solid transparent;
+            margin-top: 25px ;
           }
 
           p{
             .bgc(#29bde0);
             width: 80%;
             margin: 15px 0;
-            height:60px;
-            line-height: 60px;
+            line-height: 40px;
             border: none ;
             padding: 0;
           }
@@ -74,17 +74,21 @@ body{
             .bgc(white);
             z-index: 1;
             position: absolute;
-            left: -20px;
-            top: 25px;
+            left: -22px;
+            top: 16px;
           }
         }
 
         #killed,
         #voted{
-          height:30px;
           display: none;
           color: black;
           padding: 0;
+          font-size: 16px;
+        }
+
+        #voted{
+          padding-bottom: 10px;
         }
       }
     }
@@ -103,12 +107,12 @@ body{
       .bgc(orange);
       border: none;
       width:40%;
-      height: 50px;
-      line-height: 50px;
+      height: 40px;
+      line-height: 40px;
       font-size: 24px;
       color: white;
       border-radius: 5px;
-      margin: 20px 0;
+      margin: 15px 0;
     }
   }
 }
