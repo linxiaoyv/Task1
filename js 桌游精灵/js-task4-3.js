@@ -31,8 +31,6 @@ $(function(){
     }
 })
 
-
-
 //获胜方
 if( kiNum == 0){
     $("#success").text("平民胜利");
@@ -45,7 +43,6 @@ if( kiNum == 0){
 $("#new").click(function () {
     sessionStorage.clear();
     location.href="js-task2-1.html";
-    
 });
 
 //home键

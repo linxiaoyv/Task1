@@ -17,35 +17,39 @@ body{
 
 main{
   .pecent-top{
-    height:250px;
-
     .pecent-right{
-      height:250px;
-
       .pecent-number{
-        height: 180px;
+        height: 160px;
 
         li{
           list-style: none;
           width:50%;
           float: left;
-          font-size: 12px;
-          line-height: 20px;
+          font-size: 10px;
+          line-height: 18px;
           letter-spacing: 4px;
 
-          &:before{
+          &::before{
             content: "";
             width: 8px;
             height: 8px;
             float: left;
             background-color: orange;
-            margin: 6px -70px 0 70px ;
+            margin: 6px 2px 0 20px ;
           }
+        }
+        .green::before{
+          content: "";
+          width: 8px;
+          height: 8px;
+          float: left;
+          background-color: #5fcee8;
+          margin: 6px 2px 0 20px ;
         }
       }
 
       .reset{
-        line-height: 50px;
+        line-height: 30px;
 
         a{
           text-decoration: none;

@@ -75,14 +75,14 @@ sessionStorage.setItem("day",day);
 function changeStyle(a) {//最后一天
     for (i = 0; i <= a; i++) {
         var temp = ".day" + day + " .step";
-        var after = "<style>li:nth-child(" + (a + 1) + ") .triangle{border-right: 13px solid #1fba6e !important;}</style>";
+        var after = "<style>li:nth-child(" + (a + 1) + ") .triangle{border-right: 11px solid #1fba6e !important;}</style>";
         $(temp).eq(i).css("background", "#1fba6e");
         $(temp).eq(i).append(after);
     }
     if (day > 1) {//前几天
         for (let preDay = day - 1; preDay > 0; preDay--) {
             var temp = ".day" + preDay + " .step";
-            var after = "<style>.day" + preDay + " .triangle{ border-right: 13px solid #1fba6e !important;} </style>";
+            var after = "<style>.day" + preDay + " .triangle{ border-right: 11px solid #1fba6e !important;} </style>";
             $(temp).css("background", "#1fba6e");
             $(temp).append(after);
             $("ul.day"+ preDay).hide();
